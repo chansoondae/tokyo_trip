@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗼 도쿄 아트 투어 일정표
 
-## Getting Started
+**2026년 4월 25일(토) ~ 4월 28일(화) · 3박 4일**
+(주)몽트래블 · 인솔자 차가운순대(서찬수)
 
-First, run the development server:
+참가자가 스마트폰으로 일정을 한눈에 보고, 각 명소를 구글맵으로 바로 찾아갈 수 있는 모바일 친화적 여행 일정표 웹앱입니다.
+
+---
+
+## 주요 방문지
+
+| 일차 | 날짜 | 주요 일정 |
+|---|---|---|
+| 1일차 | 4/25 (토) | 국립서양미술관 · 솜포 미술관 · 국립신미술관 |
+| 2일차 | 4/26 (일) | 후지 모토스코 리조트(시바자쿠라 축제) · 도쿄 후지 미술관 |
+| 3일차 | 4/27 (월) | 하코네 폴라 미술관 · 베르나르 뷔페 미술관 |
+| 4일차 | 4/28 (화) | 도쿄도 미술관 · 아티존 미술관 · 귀국 |
+
+---
+
+## 기술 스택
+
+- **Framework**: Next.js 15 (App Router) · React 19 · TypeScript
+- **Styling**: Tailwind CSS v4 (모바일 퍼스트)
+- **Icons**: lucide-react
+- **배포**: Vercel
+
+## 주요 기능
+
+- 일자별 타임라인 상세 일정
+- 각 스팟 구글맵 바로가기 버튼
+- 전시 및 식당 상세 정보
+- 글자 크기 조절 (5060 세대 접근성 고려)
+- 하단 탭 네비게이션
+
+---
+
+## 로컬 실행
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000) 접속
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 이미지 추가 방법
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+스팟 이미지는 `public/images/` 폴더에 아래 파일명으로 추가합니다.
 
-## Learn More
+| 파일명 | 설명 |
+|---|---|
+| spot-1-1.jpg ~ spot-1-8.jpg | 1일차 스팟 |
+| spot-2-1.jpg ~ spot-2-6.jpg | 2일차 스팟 |
+| spot-3-1.jpg ~ spot-3-7.jpg | 3일차 스팟 |
+| spot-4-1.jpg ~ spot-4-7.jpg | 4일차 스팟 |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**문의**: 010-5663-5153 · [카카오채널 몽트래블](https://pf.kakao.com/_fxiRVM)
