@@ -194,6 +194,12 @@ const dayData: Record<number, {
         mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pola+Museum+of+Art+Hakone+Sengokuhara",
       },
       {
+        time: "점심",
+        name: "폴라 미술관 레스토랑 (점심)",
+        description: "폴라 미술관 내 레스토랑에서 점심 식사를 즐깁니다. Beef Stew Set ¥3,500으로, 하코네의 자연을 바라보며 여유로운 식사 시간을 가집니다.",
+        imagePath: "/images/spot-3-lunch.jpg",
+      },
+      {
         time: "13:00",
         name: "폴라 미술관 → 베르나르 뷔페 미술관 이동",
         description: "전용차량으로 시즈오카현의 베르나르 뷔페 미술관으로 이동합니다.",
