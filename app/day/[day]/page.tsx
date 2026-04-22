@@ -114,7 +114,7 @@ const dayData: Record<number, {
     summary: "후지 모토스코 리조트 → 도쿄 후지 미술관 → 샤부젠 롯폰기",
     breakfast: "호텔식",
     lunch: "후지 모토스코 리조트",
-    dinner: "샤부젠 롯폰기",
+    dinner: "샤부젠 롯폰기 (스키야키)",
     accommodation: "도쿄 프린스 호텔",
     hotelMapsUrl: "https://www.google.com/maps/search/?api=1&query=3+Chome-3-1+Shibakoen,+Minato+City,+Tokyo+105-8560",
     spots: [
@@ -157,7 +157,7 @@ const dayData: Record<number, {
       {
         time: "18:00",
         name: "샤부젠 롯폰기 (저녁)",
-        description: "롯폰기의 샤부젠에서 저녁 식사를 즐깁니다.",
+        description: "롯폰기의 샤부젠에서 스키야키로 저녁 식사를 즐깁니다. 일본식 전골 요리인 스키야키는 얇게 썬 소고기와 채소를 달콤한 간장 소스에 졸여 먹는 요리입니다.",
         address: "〒106-0032 Tokyo, Minato City, Roppongi, 3 Chome-16-33 B1",
         imagePath: "/images/spot-2-6.jpg",
         mapsUrl: "https://maps.app.goo.gl/8M3KW9GTBnXiL7rLA",
@@ -226,7 +226,7 @@ const dayData: Record<number, {
       {
         time: "저녁",
         name: "토리키조쿠 (鳥貴族)",
-        description: "일본 전국 체인의 인기 야키토리(닭꼬치) 전문점입니다. 모든 메뉴가 균일가로 제공되며, 신선한 닭꼬치와 생맥주를 즐길 수 있습니다.",
+        description: "일본 인기 야키토리(닭꼬치) 전문점에서 여행의 마지막 밤을 함께합니다. 시원한 맥주 한 잔을 기울이며 3박 4일간의 추억을 나누는 뒷풀이 자리입니다.",
         imagePath: "/images/spot-3-7.jpg",
         mapsUrl: "https://maps.app.goo.gl/uinEFKyeHhxXmzDM7",
       },
