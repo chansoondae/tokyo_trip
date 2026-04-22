@@ -196,7 +196,7 @@ const dayData: Record<number, {
       {
         time: "점심",
         name: "폴라 미술관 레스토랑 (점심)",
-        description: "폴라 미술관 내 레스토랑에서 점심 식사를 즐깁니다. Beef Stew Set ¥3,500으로, 하코네의 자연을 바라보며 여유로운 식사 시간을 가집니다.",
+        description: "폴라 미술관 내 레스토랑에서 점심 식사를 즐깁니다. Beef Stew Set으로, 하코네의 자연을 바라보며 여유로운 식사 시간을 가집니다.",
         imagePath: "/images/spot-3-lunch.jpg",
       },
       {
