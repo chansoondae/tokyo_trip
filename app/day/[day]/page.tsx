@@ -301,6 +301,10 @@ const dayData: Record<number, {
   },
 };
 
+export function generateStaticParams() {
+  return [{ day: "1" }, { day: "2" }, { day: "3" }, { day: "4" }];
+}
+
 export default async function DayPage({ params }: { params: Promise<{ day: string }> }) {
   const { day: dayParam } = await params;
   const dayNum = parseInt(dayParam, 10);
