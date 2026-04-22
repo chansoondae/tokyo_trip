@@ -40,17 +40,17 @@ const dayData: Record<number, {
     hotelMapsUrl: "https://www.google.com/maps/search/?api=1&query=3+Chome-3-1+Shibakoen,+Minato+City,+Tokyo+105-8560",
     spots: [
       {
-        time: "12:00",
-        name: "하네다공항 집결",
-        description: "OZ1085편 (08:40→10:45) 도착 후 짐을 가지고 모입니다. 총 14명.",
+        time: "10:45",
+        name: "하네다공항 도착 (아시아나 OZ1085)",
+        description: "✈️ 아시아나 OZ1085 (김포 08:40 → 하네다 10:45) 도착\n✈️ 대한항공 KE2101 (김포 09:00 → 하네다 11:20) 도착\n\n아시아나 팀은 입국 후 짐을 가지고 바로 전용차량으로 도쿄 프린스 호텔로 이동합니다.\n\n🚗 대한항공 팀 (@하루의위로님+지인 @바람의서님 @방울토마토님): 별도 픽업 차량으로 공항에서 호텔로 이동 예정. 인솔자가 공항에서 따로 안내해 드립니다. 호텔에서 합류합니다.",
         address: "羽田空港, Tokyo",
         imagePath: "/images/spot-1-1.jpg",
         mapsUrl: "https://www.google.com/maps/search/?api=1&query=羽田空港",
       },
       {
         time: "13:00",
-        name: "도쿄 프린스 호텔 (짐 보관)",
-        description: "호텔에 짐을 맡깁니다. 총 18명 (짐 없이 합류).",
+        name: "도쿄 프린스 호텔 (짐 보관 & 집결)",
+        description: "호텔에 짐을 맡기고 전체 합류합니다.\n\n· 아시아나 팀 + 대한항공 팀: 호텔에서 만나 짐 보관\n· 호텔 지하 로손 편의점 이용 가능\n· 호텔 앞 도쿄타워를 보며 대기\n\n🚆 나리타 입국 팀 (@이제님): 나리타공항 → 스카이라이너 → 우에노역 이동 후 국립서양미술관에서 합류. 짐은 우에노역 또는 미술관 근처에 보관. 이후 전용차량에 짐 싣고 함께 이동합니다.",
         address: "3 Chome-3-1 Shibakoen, Minato City, Tokyo 105-8560",
         imagePath: "/images/spot-1-2.jpg",
         mapsUrl: "https://www.google.com/maps/search/?api=1&query=3+Chome-3-1+Shibakoen,+Minato+City,+Tokyo+105-8560",
