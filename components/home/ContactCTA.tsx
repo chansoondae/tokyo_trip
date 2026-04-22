@@ -8,7 +8,7 @@ export function ContactCTA() {
       <p className="text-sm text-neutral-600">궁금하신 사항은 인솔자에게 연락해 주세요.</p>
       <div className="flex flex-col gap-3">
         <PhoneButton phone="010-5663-5153" label="서찬수(차순) 010-5663-5153" />
-        <ExternalLinkButton href="https://pf.kakao.com/_fxiRVM" label="카카오채널 몽트래블" />
+        <ExternalLinkButton href="http://pf.kakao.com/_gIxlNb/chat" label="카카오채널 아트프렌즈" />
       </div>
     </div>
   );

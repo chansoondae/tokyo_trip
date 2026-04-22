@@ -323,6 +323,7 @@ export default async function DayPage({ params }: { params: Promise<{ day: strin
         {data.spots.map((spot, i) => (
           <TimelineItem
             key={i}
+            spotId={`spot-${data.dayNumber}-${i + 1}`}
             time={spot.time}
             name={spot.name}
             description={spot.description}

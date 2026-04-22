@@ -3,8 +3,10 @@ import { useState } from "react";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { GoogleMapsButton } from "@/components/common/GoogleMapsButton";
+import { SpotComments } from "@/components/day/SpotComments";
 
 interface Props {
+  spotId: string;
   time: string;
   name: string;
   description: string;
@@ -14,7 +16,7 @@ interface Props {
   isLast: boolean;
 }
 
-export function TimelineItem({ time, name, description, address, imagePath, mapsUrl, isLast }: Props) {
+export function TimelineItem({ spotId, time, name, description, address, imagePath, mapsUrl, isLast }: Props) {
   const [imgError, setImgError] = useState(false);
 
   return (
@@ -49,6 +51,7 @@ export function TimelineItem({ time, name, description, address, imagePath, maps
               </div>
             )}
             {mapsUrl && <GoogleMapsButton url={mapsUrl} />}
+            <SpotComments spotId={spotId} />
           </div>
         </div>
       </div>

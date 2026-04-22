@@ -48,7 +48,7 @@ export default function InfoPage() {
         <h2 className="text-lg font-bold">📞 인솔자 연락처</h2>
         <div className="flex flex-col gap-3">
           <PhoneButton phone="010-5663-5153" label="서찬수(차순) 010-5663-5153" />
-          <ExternalLinkButton href="https://pf.kakao.com/_fxiRVM" label="카카오채널 몽트래블" />
+          <ExternalLinkButton href="http://pf.kakao.com/_gIxlNb/chat" label="카카오채널 아트프렌즈" />
         </div>
       </div>
 
