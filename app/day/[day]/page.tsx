@@ -23,7 +23,7 @@ const dayData: Record<number, {
     description: string;
     address?: string;
     imagePath: string;
-    mapsUrl: string;
+    mapsUrl?: string;
   }[];
 }> = {
   1: {
