@@ -20,3 +20,16 @@ body {
   color: var(--neutral-text);
   overflow-x: hidden;
 }
+
+@media print {
+  header, nav, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  main {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}

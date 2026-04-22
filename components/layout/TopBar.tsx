@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useFontSize } from "@/components/FontSizeProvider";
+import { FileDown } from "lucide-react";
 
 export function TopBar() {
   const router = useRouter();
@@ -35,6 +36,13 @@ export function TopBar() {
             aria-label="글자 크게"
           >
             +
+          </button>
+          <button
+            onClick={() => window.print()}
+            className="w-9 h-9 rounded-full flex items-center justify-center text-neutral-600 active:bg-neutral-100 transition"
+            aria-label="PDF 다운로드"
+          >
+            <FileDown className="h-4 w-4" />
           </button>
         </div>
       </div>
